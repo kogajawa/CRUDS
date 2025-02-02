@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 0px ;
 }
 body{
     background-color: #222;
@@ -99,4 +99,19 @@ th, td {
 }
 #deleteAll{
     margin: 20px 0;
+}
+@media (max-width:650px){
+    table{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+        
+    }
+    table th{
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+    th, td {
+        padding: 2px;
+    }
 }
